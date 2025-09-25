@@ -1,0 +1,92 @@
+%pip install faker
+import pandas as pd
+import numpy as np
+from faker import Faker
+import random
+
+def generate_accurate_dataset():
+    """
+    Generates a more accurate and unique dataset with realistic correlations for LightFM.
+    """
+    Faker.seed(0)
+    fake = Faker()
+
+    num_students = 100
+    num_opportunities = 100
+    num_interactions = 800
+
+    # Define core categories to build correlations
+    core_categories = {
+        'Python, C++': ['youth education', 'tech development', 'robotics'],
+        'Social Media, Marketing': ['animal welfare', 'community outreach', 'fundraising'],
+        'Public Speaking, Teaching': ['youth education', 'mentoring', 'community service'],
+        'Environmental, Research': ['conservation', 'data analysis', 'scientific studies']
+    }
+
+    # --- 1. Generate Student Data ---
+    student_records = []
+    for i in range(num_students):
+        skills_category, interests_list = random.choice(list(core_categories.items()))
+        interests = random.choice(interests_list)
+        willingness = random.choice(['high', 'medium', 'low'])
+        calendar = random.sample(['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'], k=random.randint(2, 5))
+        
+        student_records.append({
+            'student_id': i,
+            'skills': skills_category,
+            'interests': interests,
+            'willingness': willingness,
+            'work_calendar': ','.join(calendar)
+        })
+    students_df = pd.DataFrame(student_records)
+    
+    # --- 2. Generate NGO Opportunity Data ---
+    opportunity_records = []
+    for i in range(num_opportunities):
+        required_skills_category, description_list = random.choice(list(core_categories.items()))
+        description_text = random.choice(description_list)
+        importance = random.choice(['emergency', 'high', 'standard'])
+        calendar = random.sample(['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'], k=random.randint(1, 4))
+        
+        opportunity_records.append({
+            'opportunity_id': i,
+            'ngo_name': fake.company(),
+            'description': f"Help with a {description_text} project. Requires skills in {required_skills_category}.",
+            'required_skills': required_skills_category,
+            'importance_level': importance,
+            'work_calendar': ','.join(calendar)
+        })
+    opportunities_df = pd.DataFrame(opportunity_records)
+
+    # --- 3. Generate Correlated Interaction Data ---
+    interactions_list = []
+    
+    for _ in range(num_interactions):
+        student = students_df.sample(1).iloc[0]
+        student_skills = student['skills']
+        
+        # Find opportunities that match the student's skills
+        matching_opportunities = opportunities_df[opportunities_df['required_skills'] == student_skills]
+        
+        if not matching_opportunities.empty:
+            opportunity = matching_opportunities.sample(1).iloc[0]
+            interactions_list.append({
+                'student_id': student['student_id'],
+                'opportunity_id': opportunity['opportunity_id'],
+                'interaction': 1
+            })
+    interactions_df = pd.DataFrame(interactions_list)
+    
+    # Drop duplicates to ensure unique interactions
+    interactions_df.drop_duplicates(subset=['student_id', 'opportunity_id'], inplace=True)
+
+    # --- 4. Save to CSV Files ---
+    students_df.to_csv('students.csv', index=False)
+    opportunities_df.to_csv('opportunities.csv', index=False)
+    interactions_df.to_csv('interactions.csv', index=False)
+
+    print("Generated and saved unique, correlated data to 'students.csv', 'opportunities.csv', and 'interactions.csv'.")
+    return students_df, opportunities_df, interactions_df
+
+if __name__ == '__main__':
+    generate_accurate_dataset()
