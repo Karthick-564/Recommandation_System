@@ -1,0 +1,101 @@
+opportunity_id,ngo_name,description,required_skills,importance_level,work_calendar
+0,Chang-Fisher,"Help with a mentoring project. Requires skills in Public Speaking, Teaching.","Public Speaking, Teaching",high,"Sat,Fri,Sun"
+1,Sheppard-Tucker,"Help with a robotics project. Requires skills in Python, C++.","Python, C++",standard,"Tue,Fri,Sun,Mon"
+2,Faulkner-Howard,"Help with a youth education project. Requires skills in Python, C++.","Python, C++",high,Sun
+3,Wagner LLC,"Help with a mentoring project. Requires skills in Public Speaking, Teaching.","Public Speaking, Teaching",emergency,"Wed,Tue,Fri"
+4,Campos PLC,"Help with a youth education project. Requires skills in Public Speaking, Teaching.","Public Speaking, Teaching",standard,Wed
+5,Archer-Patel,"Help with a community outreach project. Requires skills in Social Media, Marketing.","Social Media, Marketing",standard,"Fri,Wed,Thu"
+6,"Patrick, Barrera and Collins","Help with a robotics project. Requires skills in Python, C++.","Python, C++",emergency,"Mon,Thu,Sat,Tue"
+7,"Jones, Jefferson and Rivera","Help with a community outreach project. Requires skills in Social Media, Marketing.","Social Media, Marketing",emergency,"Mon,Sun"
+8,"Garcia, Hamilton and Carr","Help with a animal welfare project. Requires skills in Social Media, Marketing.","Social Media, Marketing",high,"Sat,Thu,Mon,Fri"
+9,Levy Group,"Help with a robotics project. Requires skills in Python, C++.","Python, C++",standard,"Sun,Wed,Tue"
+10,Grimes-Green,"Help with a robotics project. Requires skills in Python, C++.","Python, C++",high,"Tue,Sat,Sun,Fri"
+11,"Moon, Davis and Larsen","Help with a tech development project. Requires skills in Python, C++.","Python, C++",standard,Fri
+12,"Summers, Barnett and Smith","Help with a fundraising project. Requires skills in Social Media, Marketing.","Social Media, Marketing",emergency,"Fri,Tue"
+13,Clayton-Cook,"Help with a tech development project. Requires skills in Python, C++.","Python, C++",emergency,"Fri,Sat,Mon,Sun"
+14,"Nguyen, Harrell and Lee","Help with a youth education project. Requires skills in Public Speaking, Teaching.","Public Speaking, Teaching",emergency,"Thu,Tue"
+15,"Walker, Pratt and Thomas","Help with a animal welfare project. Requires skills in Social Media, Marketing.","Social Media, Marketing",standard,Sun
+16,"West, Miller and Flores","Help with a mentoring project. Requires skills in Public Speaking, Teaching.","Public Speaking, Teaching",emergency,"Tue,Fri"
+17,"Bolton, Burns and Turner","Help with a community service project. Requires skills in Public Speaking, Teaching.","Public Speaking, Teaching",emergency,"Sun,Mon,Fri"
+18,Mann-Kelley,"Help with a fundraising project. Requires skills in Social Media, Marketing.","Social Media, Marketing",high,Fri
+19,"Harris, Lloyd and Payne","Help with a community outreach project. Requires skills in Social Media, Marketing.","Social Media, Marketing",high,"Fri,Mon,Sat,Thu"
+20,Wallace-Carlson,"Help with a community service project. Requires skills in Public Speaking, Teaching.","Public Speaking, Teaching",standard,"Sun,Sat"
+21,Stewart-Allen,"Help with a community outreach project. Requires skills in Social Media, Marketing.","Social Media, Marketing",high,"Wed,Sat,Fri,Tue"
+22,Lopez and Sons,"Help with a youth education project. Requires skills in Python, C++.","Python, C++",emergency,"Tue,Wed,Thu,Sat"
+23,Salazar Ltd,"Help with a conservation project. Requires skills in Environmental, Research.","Environmental, Research",standard,"Tue,Sat,Thu"
+24,Alvarez-Davis,"Help with a fundraising project. Requires skills in Social Media, Marketing.","Social Media, Marketing",standard,"Sat,Wed"
+25,Mcdowell Inc,"Help with a conservation project. Requires skills in Environmental, Research.","Environmental, Research",standard,"Thu,Fri,Sun,Wed"
+26,Villanueva PLC,"Help with a youth education project. Requires skills in Public Speaking, Teaching.","Public Speaking, Teaching",standard,"Sat,Sun"
+27,"Myers, Thornton and Hill","Help with a animal welfare project. Requires skills in Social Media, Marketing.","Social Media, Marketing",standard,"Sat,Fri,Wed"
+28,Atkinson Ltd,"Help with a community outreach project. Requires skills in Social Media, Marketing.","Social Media, Marketing",high,Tue
+29,"Bryan, Barnes and Hill","Help with a youth education project. Requires skills in Python, C++.","Python, C++",emergency,"Sun,Thu"
+30,Keller-Davies,"Help with a community service project. Requires skills in Public Speaking, Teaching.","Public Speaking, Teaching",standard,"Sun,Thu,Mon,Tue"
+31,Miller-Salazar,"Help with a data analysis project. Requires skills in Environmental, Research.","Environmental, Research",high,"Tue,Sat"
+32,Matthews-Rogers,"Help with a community outreach project. Requires skills in Social Media, Marketing.","Social Media, Marketing",emergency,"Thu,Sun,Tue,Fri"
+33,Sanchez Ltd,"Help with a mentoring project. Requires skills in Public Speaking, Teaching.","Public Speaking, Teaching",standard,Sat
+34,Wilson-Robinson,"Help with a conservation project. Requires skills in Environmental, Research.","Environmental, Research",emergency,"Sat,Fri,Sun,Thu"
+35,Cook Inc,"Help with a community service project. Requires skills in Public Speaking, Teaching.","Public Speaking, Teaching",high,"Fri,Sat,Sun"
+36,Logan Ltd,"Help with a community service project. Requires skills in Public Speaking, Teaching.","Public Speaking, Teaching",high,Tue
+37,Williams PLC,"Help with a community service project. Requires skills in Public Speaking, Teaching.","Public Speaking, Teaching",emergency,"Wed,Thu"
+38,"Kent, Ferguson and Becker","Help with a youth education project. Requires skills in Python, C++.","Python, C++",high,"Sat,Wed"
+39,Martinez and Sons,"Help with a robotics project. Requires skills in Python, C++.","Python, C++",emergency,"Tue,Sun,Mon,Wed"
+40,"Greer, Wilson and Davis","Help with a mentoring project. Requires skills in Public Speaking, Teaching.","Public Speaking, Teaching",high,"Fri,Sun"
+41,Johnson Inc,"Help with a youth education project. Requires skills in Public Speaking, Teaching.","Public Speaking, Teaching",standard,"Sat,Tue"
+42,Woodward and Sons,"Help with a mentoring project. Requires skills in Public Speaking, Teaching.","Public Speaking, Teaching",emergency,"Sun,Fri,Thu"
+43,"Martinez, Clark and Owen","Help with a animal welfare project. Requires skills in Social Media, Marketing.","Social Media, Marketing",standard,"Mon,Sat"
+44,"Johnson, Coleman and Garcia","Help with a data analysis project. Requires skills in Environmental, Research.","Environmental, Research",high,Sun
+45,Jones-Jones,"Help with a conservation project. Requires skills in Environmental, Research.","Environmental, Research",standard,"Sat,Wed"
+46,Bell-White,"Help with a robotics project. Requires skills in Python, C++.","Python, C++",standard,"Mon,Wed,Thu"
+47,"Mcdonald, Carlson and Lyons","Help with a community outreach project. Requires skills in Social Media, Marketing.","Social Media, Marketing",high,"Fri,Tue,Wed,Sun"
+48,Gonzalez-Howard,"Help with a animal welfare project. Requires skills in Social Media, Marketing.","Social Media, Marketing",standard,Tue
+49,"Harrison, Barrera and Hudson","Help with a youth education project. Requires skills in Public Speaking, Teaching.","Public Speaking, Teaching",emergency,Mon
+50,"Chambers, Levy and Brown","Help with a data analysis project. Requires skills in Environmental, Research.","Environmental, Research",high,"Tue,Wed,Thu,Mon"
+51,"Moore, Martin and Moreno","Help with a fundraising project. Requires skills in Social Media, Marketing.","Social Media, Marketing",emergency,Fri
+52,Carlson Group,"Help with a scientific studies project. Requires skills in Environmental, Research.","Environmental, Research",high,"Sat,Wed,Tue"
+53,"Thompson, Ruiz and Ortiz","Help with a fundraising project. Requires skills in Social Media, Marketing.","Social Media, Marketing",high,"Sun,Sat,Mon"
+54,"Golden, Lowery and Banks","Help with a scientific studies project. Requires skills in Environmental, Research.","Environmental, Research",standard,"Mon,Wed,Sun"
+55,Monroe-King,"Help with a youth education project. Requires skills in Public Speaking, Teaching.","Public Speaking, Teaching",high,"Mon,Fri"
+56,"Vazquez, Ellis and Miller","Help with a tech development project. Requires skills in Python, C++.","Python, C++",high,"Wed,Mon"
+57,"Williams, Campbell and Allen","Help with a scientific studies project. Requires skills in Environmental, Research.","Environmental, Research",emergency,"Wed,Sat"
+58,Bell-Roberts,"Help with a mentoring project. Requires skills in Public Speaking, Teaching.","Public Speaking, Teaching",standard,"Sat,Sun,Tue,Thu"
+59,Garza-Mcclain,"Help with a mentoring project. Requires skills in Public Speaking, Teaching.","Public Speaking, Teaching",standard,"Mon,Sun,Wed"
+60,"Anderson, Collins and Goodman","Help with a fundraising project. Requires skills in Social Media, Marketing.","Social Media, Marketing",high,"Tue,Thu,Fri,Wed"
+61,"Miller, Wheeler and Hale","Help with a youth education project. Requires skills in Python, C++.","Python, C++",standard,"Mon,Tue,Sun,Fri"
+62,Allen Ltd,"Help with a community outreach project. Requires skills in Social Media, Marketing.","Social Media, Marketing",standard,Mon
+63,Gray-Hutchinson,"Help with a robotics project. Requires skills in Python, C++.","Python, C++",standard,Thu
+64,"Baxter, Johnson and Savage","Help with a animal welfare project. Requires skills in Social Media, Marketing.","Social Media, Marketing",high,Fri
+65,"Barnes, Bates and Williams","Help with a community service project. Requires skills in Public Speaking, Teaching.","Public Speaking, Teaching",high,Tue
+66,Brown-Miles,"Help with a animal welfare project. Requires skills in Social Media, Marketing.","Social Media, Marketing",emergency,"Sun,Tue,Sat"
+67,Rose-Freeman,"Help with a conservation project. Requires skills in Environmental, Research.","Environmental, Research",standard,"Thu,Mon,Tue"
+68,"Munoz, Smith and Williams","Help with a fundraising project. Requires skills in Social Media, Marketing.","Social Media, Marketing",high,"Fri,Mon,Sat"
+69,Collins-Owens,"Help with a youth education project. Requires skills in Python, C++.","Python, C++",standard,"Wed,Tue,Mon"
+70,Lopez-Key,"Help with a youth education project. Requires skills in Python, C++.","Python, C++",high,"Wed,Fri,Thu"
+71,"Irwin, Monroe and Anderson","Help with a data analysis project. Requires skills in Environmental, Research.","Environmental, Research",emergency,"Fri,Sun,Tue,Mon"
+72,Morales Ltd,"Help with a fundraising project. Requires skills in Social Media, Marketing.","Social Media, Marketing",emergency,"Thu,Sun,Mon,Wed"
+73,Stewart-Lewis,"Help with a conservation project. Requires skills in Environmental, Research.","Environmental, Research",standard,"Mon,Thu"
+74,"Fischer, Baird and Lowe","Help with a youth education project. Requires skills in Python, C++.","Python, C++",emergency,"Thu,Tue,Sun,Mon"
+75,"Davis, Wilson and Banks","Help with a community outreach project. Requires skills in Social Media, Marketing.","Social Media, Marketing",standard,"Sun,Fri,Mon"
+76,Ramirez-Good,"Help with a mentoring project. Requires skills in Public Speaking, Teaching.","Public Speaking, Teaching",emergency,"Wed,Sat,Sun"
+77,Alvarez Group,"Help with a tech development project. Requires skills in Python, C++.","Python, C++",emergency,Mon
+78,"Miller, Hill and Chavez","Help with a youth education project. Requires skills in Public Speaking, Teaching.","Public Speaking, Teaching",high,"Fri,Tue"
+79,Callahan and Sons,"Help with a robotics project. Requires skills in Python, C++.","Python, C++",high,"Wed,Mon,Thu"
+80,"Meyer, Curtis and Reed","Help with a scientific studies project. Requires skills in Environmental, Research.","Environmental, Research",emergency,"Sat,Tue"
+81,Ramirez Inc,"Help with a animal welfare project. Requires skills in Social Media, Marketing.","Social Media, Marketing",high,"Thu,Tue,Fri,Mon"
+82,Williams Ltd,"Help with a mentoring project. Requires skills in Public Speaking, Teaching.","Public Speaking, Teaching",standard,"Sun,Thu"
+83,Grant-Potts,"Help with a animal welfare project. Requires skills in Social Media, Marketing.","Social Media, Marketing",standard,"Sat,Mon,Fri,Wed"
+84,"Browning, Williams and Curry","Help with a youth education project. Requires skills in Public Speaking, Teaching.","Public Speaking, Teaching",emergency,"Thu,Sat"
+85,"Lawson, Simpson and Schneider","Help with a tech development project. Requires skills in Python, C++.","Python, C++",high,"Sat,Mon,Sun,Tue"
+86,Bowman-Watson,"Help with a robotics project. Requires skills in Python, C++.","Python, C++",high,"Tue,Thu,Sat,Wed"
+87,"Thompson, Bennett and Carter","Help with a community service project. Requires skills in Public Speaking, Teaching.","Public Speaking, Teaching",high,"Sun,Wed,Fri,Mon"
+88,Hernandez LLC,"Help with a robotics project. Requires skills in Python, C++.","Python, C++",standard,Thu
+89,Clarke-Higgins,"Help with a mentoring project. Requires skills in Public Speaking, Teaching.","Public Speaking, Teaching",emergency,"Fri,Sun,Wed"
+90,Chan-Johnson,"Help with a conservation project. Requires skills in Environmental, Research.","Environmental, Research",standard,"Mon,Tue,Thu"
+91,Martin-Holden,"Help with a robotics project. Requires skills in Python, C++.","Python, C++",high,Sun
+92,Ward-Hays,"Help with a youth education project. Requires skills in Python, C++.","Python, C++",standard,"Thu,Wed,Sun"
+93,Carter Group,"Help with a conservation project. Requires skills in Environmental, Research.","Environmental, Research",standard,"Sun,Thu"
+94,"Allen, Williams and White","Help with a community outreach project. Requires skills in Social Media, Marketing.","Social Media, Marketing",emergency,Mon
+95,"Chandler, Turner and Houston","Help with a mentoring project. Requires skills in Public Speaking, Teaching.","Public Speaking, Teaching",standard,"Sat,Sun,Wed"
+96,Perry-Garcia,"Help with a youth education project. Requires skills in Python, C++.","Python, C++",high,Fri
+97,Wells-Randall,"Help with a youth education project. Requires skills in Public Speaking, Teaching.","Public Speaking, Teaching",standard,Fri
+98,Martinez-Wilson,"Help with a community service project. Requires skills in Public Speaking, Teaching.","Public Speaking, Teaching",high,"Mon,Wed"
+99,Simmons-Turner,"Help with a community outreach project. Requires skills in Social Media, Marketing.","Social Media, Marketing",standard,"Mon,Sun"
