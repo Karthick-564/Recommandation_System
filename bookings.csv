@@ -1,0 +1,6 @@
+booking_id,student_id,slot_id,booking_date,status,notes
+1,0,1,2024-01-10,confirmed,Excited to volunteer!
+2,1,3,2024-01-11,confirmed,Looking forward to helping
+3,2,1,2024-01-12,confirmed,First time volunteering here
+4,3,2,2024-01-13,confirmed,Happy to contribute
+5,4,5,2024-01-14,confirmed,Ready to make a difference
